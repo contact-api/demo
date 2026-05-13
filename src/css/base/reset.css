@@ -5,3 +5,11 @@
   list-style: none;
   text-decoration: none;
 }
+
+a,
+button,
+input,
+textarea {
+  color: inherit;
+  font: inherit;
+}

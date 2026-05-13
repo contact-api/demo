@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--txt);
+}
+
+.email-input {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: var(--txt);
+  background-color: var(--bg);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.email-input:focus {
+  border-color: var(--accent);
+}
+
+textarea.email-input {
+  resize: vertical;
+  min-height: 120px;
+}
+
+#form-status {
+  font-size: 0.875rem;
+  text-align: center;
+  min-height: 1.2rem;
+}

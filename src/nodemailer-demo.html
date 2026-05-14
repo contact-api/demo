@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nodemailer API Demo</title>
   <meta name="contact-api-url" content="https://contact-api-nodemailer.vercel.app/api/contact">
-  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
   <script type="module" src="scripts/contact.ts"></script>
 </head>
 <body>
@@ -13,7 +13,7 @@
     <h1>Nodemailer API Demo</h1>
     <p>Testing the <code>/api/contact</code> endpoint using Nodemailer.</p>
   </header>
-  <main id="contact-page">
+  <main class="page">
     <form id="contact-form">
       <label for="email">Email Address</label>
       <input type="email" id="email" name="email" class="email-input" placeholder="Enter email address.." required>
@@ -24,10 +24,10 @@
       <label for="message">Message</label>
       <textarea id="message" name="message" class="email-input" placeholder="Enter message.." required></textarea>
 
-      <input type="submit" value="Send Email" class="hover-colour email-submit">
-      <div id="form-status"></div>
+      <input type="submit" value="Send Email" class="btn">
+      <div id="form-status" role="status"></div>
     </form>
-    <a href="/contact-api-demo" class="demo-button">← Return to Home</a>
+    <a href="/contact-api-demo" class="btn">← Return to Home</a>
   </main>
 </body>
 </html>

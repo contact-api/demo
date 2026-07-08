@@ -1,6 +1,9 @@
 # Contact API Demo
 A small multi-page demo site for [contact-api](https://www.github.com/masonlet/contact-api), built with Vite and TypeScript. It provides simple UI demos for testing the `/api/contact` endpoint with both Nodemailer and Resend providers.
 
+[![CI](https://github.com/contact-api/demo/actions/workflows/ci.yml/badge.svg)](https://github.com/contact-api/demo/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+
 ## Tech Stack
 <p align="left">
   <img height="35" src="https://img.shields.io/badge/HTML5-%23E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5"/>

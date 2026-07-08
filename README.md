@@ -4,6 +4,10 @@ A small multi-page demo site for [contact-api](https://www.github.com/masonlet/c
 [![CI](https://github.com/contact-api/demo/actions/workflows/ci.yml/badge.svg)](https://github.com/contact-api/demo/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
+![Home page](./images/page.png)
+![Nodemailer demo](./images/nodemailer.png)
+![Resend demo](./images/resend.png)
+
 ## Tech Stack
 <p align="left">
   <img height="35" src="https://img.shields.io/badge/HTML5-%23E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5"/>

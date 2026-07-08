@@ -8,4 +8,4 @@ on:
 
 jobs:
   build:
-    uses: contact-api/.github/.github/workflows/build.yml@v1.0.0
+    uses: contact-api/.github/.github/workflows/build.yml@v1.0.1
